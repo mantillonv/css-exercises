@@ -1,0 +1,13 @@
+.first {
+    color: white;
+    background-color: black;
+}
+
+.second {
+    background-color: yellow;
+}
+
+/* adding shared rules to multiple classes to avoid */
+.first, .second {
+    font-family: Helvetica, Times New Roman, sans-serif;
+}
